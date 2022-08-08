@@ -4,7 +4,7 @@ import { useEffect,useState } from 'react'
 import Image from 'next/image'
 import axios from 'axios'
 
-const detallesPokemones = ()=>{
+const DetallesPokemones = ()=>{
 
    const router = useRouter()
 
@@ -32,4 +32,4 @@ const detallesPokemones = ()=>{
     )
 }
 
-export default detallesPokemones
+export default DetallesPokemones

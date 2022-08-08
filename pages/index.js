@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Cards from '../components/Cards'
+import Head from 'next/document'
 
 const Home = ()=>{
     
